@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMessageSender", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMessageReceiver", "PerformanceMessageReceiver\PerformanceMessageReceiver.csproj", "{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueApp", "QueueApp\QueueApp.csproj", "{30A7E2C2-6EE0-4620-85C6-0994B70804FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeQueueApp", "DeQueueApp\DeQueueApp.csproj", "{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A7E2C2-6EE0-4620-85C6-0994B70804FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A7E2C2-6EE0-4620-85C6-0994B70804FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A7E2C2-6EE0-4620-85C6-0994B70804FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A7E2C2-6EE0-4620-85C6-0994B70804FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
