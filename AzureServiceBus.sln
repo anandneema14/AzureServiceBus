@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateMessageSender", "PrivateMessageSender\PrivateMessageSender.csproj", "{B58EDF67-5393-455F-867F-75456CD27E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateMessageReceiver", "PrivateMessageReceiver\PrivateMessageReceiver.csproj", "{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B58EDF67-5393-455F-867F-75456CD27E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58EDF67-5393-455F-867F-75456CD27E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58EDF67-5393-455F-867F-75456CD27E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58EDF67-5393-455F-867F-75456CD27E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42C2F7D3-7661-41FD-8A98-3BC13FC8A725}
+	EndGlobalSection
+EndGlobal
