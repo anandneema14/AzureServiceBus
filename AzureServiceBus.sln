@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateMessageSender", "Pri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateMessageReceiver", "PrivateMessageReceiver\PrivateMessageReceiver.csproj", "{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMessageSender", "PerformanceMessageSender\PerformanceMessageSender.csproj", "{32EE8E76-FC13-4148-AB03-30276A98EEEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMessageReceiver", "PerformanceMessageReceiver\PerformanceMessageReceiver.csproj", "{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EE8E76-FC13-4148-AB03-30276A98EEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EE8E76-FC13-4148-AB03-30276A98EEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EE8E76-FC13-4148-AB03-30276A98EEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EE8E76-FC13-4148-AB03-30276A98EEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

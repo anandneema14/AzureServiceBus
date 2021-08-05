@@ -7,7 +7,6 @@ namespace PrivateMessageSender
 {
     class Program
     {
-
         const string ServiceBusConnectionString = "Endpoint=sb://learnservicebusanandn.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=X5rqsFRdelysYRUZpwyu3VOFwk+4oMRAu75vSSt5krU=";
 
         const string QueueName = "messagesQueue";
@@ -47,6 +46,5 @@ namespace PrivateMessageSender
             // Close the connection to the queue here
             await queueClient.CloseAsync();
         }
-
     }
 }
