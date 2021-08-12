@@ -3,17 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateMessageSender", "PrivateMessageSender\PrivateMessageSender.csproj", "{B58EDF67-5393-455F-867F-75456CD27E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateMessageSender", "PrivateMessageSender\PrivateMessageSender.csproj", "{B58EDF67-5393-455F-867F-75456CD27E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivateMessageReceiver", "PrivateMessageReceiver\PrivateMessageReceiver.csproj", "{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateMessageReceiver", "PrivateMessageReceiver\PrivateMessageReceiver.csproj", "{C70AFA74-4DD4-4BAB-9F2F-300C73DF4B67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMessageSender", "PerformanceMessageSender\PerformanceMessageSender.csproj", "{32EE8E76-FC13-4148-AB03-30276A98EEEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceMessageSender", "PerformanceMessageSender\PerformanceMessageSender.csproj", "{32EE8E76-FC13-4148-AB03-30276A98EEEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceMessageReceiver", "PerformanceMessageReceiver\PerformanceMessageReceiver.csproj", "{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceMessageReceiver", "PerformanceMessageReceiver\PerformanceMessageReceiver.csproj", "{A8EDBBB3-0600-4BEE-AD4F-97E4E057DD27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueApp", "QueueApp\QueueApp.csproj", "{30A7E2C2-6EE0-4620-85C6-0994B70804FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueApp", "QueueApp\QueueApp.csproj", "{30A7E2C2-6EE0-4620-85C6-0994B70804FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeQueueApp", "DeQueueApp\DeQueueApp.csproj", "{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeQueueApp", "DeQueueApp\DeQueueApp.csproj", "{B0E1E363-AE4B-498A-A5EA-EDF7D08B2977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F950F03-A5DA-4068-9B5C-11CCDB27E471}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

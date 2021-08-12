@@ -13,7 +13,7 @@ namespace DeQueueApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            ReceiveArticleAsync();
+            ReceiveArticleAsync().ConfigureAwait(false);
             Console.WriteLine($"Received");
         }
 
@@ -23,9 +23,9 @@ namespace DeQueueApp
             CloudQueueClient cloudQueueClient = storageAccount.CreateCloudQueueClient();
             CloudQueue cloudQueue = cloudQueueClient.GetQueueReference("messagequeue");
 
-            bool exists = await cloudQueue.ExistsAsync();
-            if (exists)
-            {
+            //bool exists = await cloudQueue.ExistsAsync();
+            //if (exists)
+            //{
                 CloudQueueMessage retrievedArticle = await cloudQueue.GetMessageAsync();
                 if (retrievedArticle != null)
                 {
@@ -33,7 +33,7 @@ namespace DeQueueApp
                     await cloudQueue.DeleteMessageAsync(retrievedArticle);
                     return newMessage;
                 }
-            }
+            //}
             return "Queue Empty or not created";
         } 
     }
